@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_user_button"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Felhasználó rögzittés" />
+
+    <item
+        android:id="@+id/taking_orders"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Rendelés rögzítése" />
+
+    <item
+        android:id="@+id/view_products"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Termékek" />
+
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorldSkills_2021</string>
+    <string name="title_home">Ügyfél felvétel</string>
+    <string name="title_dashboard">Rendelés felvétel</string>
+    <string name="title_notifications">Termékek</string>
+
+</resources>
