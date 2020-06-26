@@ -35,7 +35,7 @@ class HomeFragment : Fragment() {
                     Handler(mainLooper).post{
                         Toast.makeText(
                             root.context,
-                            "Hiányzik néhány ügyfél adat",
+                            "Hiányzik néhány ügyféladat",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -67,7 +67,6 @@ class HomeFragment : Fragment() {
                         }
                         override fun onResponse(call: Call, response: Response) {
                             Handler(mainLooper).post {
-                                Handler(mainLooper).post{
                                     userName.setText("")
                                     emailAddress.setText("")
                                     phoneNumber.setText("")
@@ -76,7 +75,6 @@ class HomeFragment : Fragment() {
                                         "Sikeres ügyfél felvétel",
                                         Toast.LENGTH_SHORT
                                     ).show()
-                                }
                             }
                         }
                     })
